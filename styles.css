@@ -15,6 +15,7 @@ div.main , .extern-card {
 
 .extern-card {
     margin-top: 4em;
+    margin-bottom: 4em;
     width: 800px;
     height: 400px;
     background: rgba(255, 255, 255, 0.582);
@@ -52,17 +53,17 @@ h5 {
     gap: 0;
 
 }
- .h3-row {
+ .h3-column {
      height: 80px;
 }
-.h1-row {
+.h1-column {
     height: 60px;
 }
-.h5-row {
+.h5-column {
     height: 20px;
     margin-bottom: 30px;
 }
-.h4-row {
+.h4-column {
     height: 100px;
 }
 button {
@@ -114,5 +115,8 @@ button {
     }
     .section {
         width: 100%;
+    }
+    .button {
+        margin-bottom: 2em;
     }
 }
