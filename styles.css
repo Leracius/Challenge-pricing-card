@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body {
+    background: url(./asets/backg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+div.main , .extern-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.extern-card {
+    margin-top: 4em;
+    width: 800px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.582);
+    border-radius: 15px;
+    border: 20px solid white;
+ 
+}
+
+.internal-card {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    height: 350px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+h3 {
+    font-size: 22px;
+}
+h1 {
+    font-size: 50px;
+    font: 700;
+}
+h1, h5 {
+    margin: 0;
+}
+
+h5 {
+    color: grey;
+}
+.section {
+    display: grid;
+    align-content: flex-start;
+    width: 30%;
+    gap: 0;
+
+}
+ .h3-row {
+     height: 80px;
+}
+.h1-row {
+    height: 60px;
+}
+.h5-row {
+    height: 20px;
+    margin-bottom: 30px;
+}
+.h4-row {
+    height: 100px;
+}
+button {
+    border: none;
+    font-family: 'Kumbh Sans', sans-serif;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn1 {
+    background: hsl(330, 100%, 50%);
+}
+.btn2 {
+    background: hsl(189, 100%, 50%);
+}
+.btn3 {
+    background: black;
+    color: white;
+}
+.btn1:hover {
+    background: hsl(330, 100%, 60%) ;
+}
+.btn2:hover {
+    background: hsl(189, 100%, 80%) ;
+}
+.btn3:hover {
+    background: hsl(0, 0%, 20%);
+}
+
+@media only screen and (max-width: 400px){
+    body {
+        background-repeat: repeat;
+    }
+    
+    .extern-card {
+        width: 95%;
+        justify-content: center;
+        margin-top: 2em;
+        border: 10px solid white;
+    }
+    .internal-card {
+        height: 100%;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+    }
+    .section {
+        width: 100%;
+    }
+}
