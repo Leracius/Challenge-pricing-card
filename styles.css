@@ -100,6 +100,7 @@ button {
     
     .extern-card {
         width: 95%;
+        height: 600px;
         justify-content: center;
         margin-top: 2em;
         border: 10px solid white;
